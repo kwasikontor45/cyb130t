@@ -1,4 +1,4 @@
-# war-room v4 — claude code guide
+# war-room v4 — 
 
 four seats. scoped bash terminals. direct shell execution on the host — no container intermediary.
 
