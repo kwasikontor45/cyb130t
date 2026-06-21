@@ -15,12 +15,12 @@ Usage:
 """
 
 from netmiko import ConnectHandler
-from netmiko.exceptions import NetmikoTimeoutError, NetmikoAuthenticationException
+from netmiko import NetmikoTimeoutError, NetmikoAuthenticationException
 
-HOST = "devnetsandboxiosxec8k.cisco.com"
+HOST = "REPLACE_WITH_SANDBOX_IP"
 PORT = 22
-USERNAME = "kwasi.kontor"
-PASSWORD = "9IWdP4g_0w-H"
+USERNAME = "REPLACE_WITH_USERNAME"
+PASSWORD = "REPLACE_WITH_PASSWORD"
 
 device = {
     "device_type": "cisco_xe",
