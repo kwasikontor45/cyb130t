@@ -17,10 +17,10 @@ Usage:
 from netmiko import ConnectHandler
 from netmiko import NetmikoTimeoutException, NetmikoAuthenticationException
 
-HOST = "REPLACE_WITH_SANDBOX_IP"
+HOST = "devnetsandboxiosxec8k.cisco.com"
 PORT = 22
-USERNAME = "REPLACE_WITH_USERNAME"
-PASSWORD = "REPLACE_WITH_PASSWORD"
+USERNAME = "kwasi.kontor"
+PASSWORD = "9IWdP4g_0w-H"
 
 device = {
     "device_type": "cisco_xe",
