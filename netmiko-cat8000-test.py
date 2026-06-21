@@ -15,7 +15,7 @@ Usage:
 """
 
 from netmiko import ConnectHandler
-from netmiko import NetmikoTimeoutError, NetmikoAuthenticationException
+from netmiko import NetmikoTimeoutException, NetmikoAuthenticationException
 
 HOST = "REPLACE_WITH_SANDBOX_IP"
 PORT = 22
@@ -39,7 +39,7 @@ def main():
     except NetmikoAuthenticationException:
         print("auth failed - check username/password")
         return
-    except NetmikoTimeoutError:
+    except NetmikoTimeoutException:
         print("connection timed out - check host/port and that the sandbox is active")
         return
 
